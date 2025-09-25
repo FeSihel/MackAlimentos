@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAC</title>
+    <meta charset="utf-8">
+    <link rel="Stylesheet" href="Stylesheet.css">
+</head>
+<body>
+    <header>
+    <header><a href="Index.html"><img src="MackAlimentos.png" alt="MackAlimentos" width="400" heigh="400"></a></header><hr>
+    <h1>SAC - Serviço de atendimento ao consumidor<br> Relatar problema</h1></header>
+    <form>
+        <fieldset>
+        <label for="Nome">Nome completo:</label>
+        <input type="text" id="Nome" placeholder="Nome completo" required=""><br>
+        
+        <label for="E-mail">E-Mail:</label>
+        <input type="email" id="E-mail" placeholder="E-mail" required=""><br>
+        
+        <label for="Tel">Telefone:</label>
+        <input type="number" id="Tel"placeholder="Telefone" required="" min="10000000000" max="99999999999"><br>
+        
+        <label for="Data">Dia do ocorrido:</label>
+        <input type="date" id="Data" placeholder="Data" required=""><br>
+        
+        <label for="Hora">Hora do ocorrido:</label>
+        <input type="time" id="Hora" placeholder="Hora" required=""><br>
+
+        <label for="Uni">Unidade</label>
+        <input list="Uni" name="Unidade" id="Unidade" required="">
+        <datalist id="Uni">
+            <option value="CCBS">
+            <option value="CCL">
+            <option value="CCSA">
+            <option value="CCT">
+            <option value="CEFT">
+            <option value="EE">
+            <option value="FAU">
+            <option value="FCI">
+            <option value="FDir">
+        </datalist><br>
+        <label for="Desc">Descrição do ocorrido</label><br>
+        <textarea id="Desc" placeholder="Descrição do ocorrido" required=""></textarea><br>
+        <input type="submit"></fieldset>
+    </form>
+    
+<footer><br>
+    Análise e Desenvolvimento de Sistemas <br>
+    Universidade Presbiteriana Mackenzie, Prédio 31 - Higienópolis <br>
+    Desenvolvido por Felipe Sihel, 2025    
+</footer>
+</body>
+<html>
