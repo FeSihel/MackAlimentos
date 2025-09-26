@@ -1,3 +1,19 @@
+body {
+    background-color: #E4051F;
+    font-family: Arial;
+    color: white;
+}
+
+a {
+    color: white;
+    font-weight: 100;
+}
+
+section
+{
+    float: left;
+    border: 2px solid white;
+}
 
 #b {
     float: left;
@@ -29,5 +45,5 @@
 }
 
 footer {
-   margin-top: 0px;
+   margin-bottom: 0px;
 }
