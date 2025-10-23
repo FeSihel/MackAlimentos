@@ -3,3 +3,5 @@ Projeto em desenvolvimento durante o curso de Análise e Desenvolvimento de Sist
 Faculdade de Computação e Informática - Universidade Presbiteriana Mackenzie
 
 Funcionalidade Front-end
+
+mackalimentos.netlify.app
