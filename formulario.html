@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <title>SAC MackAlimentos</title>
+    </head>
+    <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">MackAlimentos</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">SAC</a>
+        </li>
+      </ul>
+  </div>
+</nav> <br>
+<p style="text-align: center;"> Plataforma de Serviço de Auto-Atendimento ao Consumidor MackAlimentos </p>
+<p style="padding-left: 5px;">Por favor, para o melhor atendimento, preencha todos os dados, informando também a situação detalhada.</p>
+<section>
+<div class="border">
+<form style="padding: 10px;">
+ <label for="Nome">Nome completo:</label> <br>
+        <input type="text" id="Nome" required=""><br>
+        
+        <label for="E-mail">E-Mail:</label><br>
+        <input type="email" id="E-mail"required=""><br>
+        
+        <label for="Tel">Telefone:</label><br>
+        <input type="number" id="Tel" required="" min="10000000000" max="99999999999"><br>
+        
+        <label for="DH">Dia e horário do ocorrido:</label><br>
+        <input type="datetime-local" id="Data" placeholder="Data" required=""><br>
+
+        <label for="Uni">Unidade</label><br>
+        <input list="Uni" name="Unidade" id="Unidade" required="">
+        <datalist id="Uni">
+            <option value="CCBS">
+            <option value="CCL">
+            <option value="CCSA">
+            <option value="CCT">
+            <option value="CEFT">
+            <option value="EE">
+            <option value="FAU">
+            <option value="FCI">
+            <option value="FDir">
+        </datalist><br>
+        <label for="Desc">Descrição do ocorrido</label><br>
+        <textarea id="Desc" required=""></textarea><br>
+        <input type="submit"></fieldset>
+</form>
+</div>
+</section> <br>
+
+<footer>
+<div class="card">
+  <div class="card-body">
+    <p class="card-title">MackAlimentos
+    <p class="card-text">Projeto em desenvolvimento durante o curso de Análise e Desenvolvimento de Sistemas 1/5 <br> Faculdade de Computação e Informática - Universidade Presbiteriana Mackenzie </p>
+  </div>
+</div>
+</footer>
+    </body>
+</html>
